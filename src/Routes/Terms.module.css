@@ -1,0 +1,30 @@
+*{margin:0px;padding:0px;}
+a{text-decoration:none;color:#000;}
+
+.main{font-family: "Noto Sans KR", sans-serif;}
+.header{background:red;color:#fff;padding:20px 0px;}
+.header h2{margin-bottom:0px;font-weight:bold}
+
+
+/* terms1 */
+.content{padding:0px 40px;margin-top:40px;text-align:left;font-size:14px;}
+.content>b{color:#666}
+.main_title{text-align: left;padding:0px 40px;margin-top:40px;font-size:14px;}
+.content>p{text-align: left;justify-content: space-between;margin-top:10px;line-height:1.5}
+
+
+
+/* terms2 */
+.terms_table{padding:0px 40px;font-size:14px;border-collapse: collapse;}
+table{border:1px solid #666;box-sizing: border-box;}
+.table_content{text-align: left;}
+.content_detail{line-height: 1.5;}
+thead>.content_detail{background:#ccc}
+.content_detail td{border:1px solid #ccc}
+.content_detail:nth-of-type(1) th{background:#f7f7f7;border:1px solid #ccc}
+.terms_table p{font-size:14px;text-align: left;;}
+
+/* terms3 */
+
+.mini_title{background:#f7f7f7 !important;text-align: center;font-weight:bold;font-size:14px}
+.mini_title1{font-size:15px;font-weight:bold;color:#666 !important;font-family: "Noto Sans KR", "Helvetica Neue", "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", "돋움", dotum, sans-serif !important;padding:3px 7px;box-sizing: border-box;}
