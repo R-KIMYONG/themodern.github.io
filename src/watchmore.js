@@ -25,7 +25,7 @@ function Recently(props){
     
             setAllData(uniqueData);
         }).catch(error => {
-            console.error('데이터 요청 실패', error);
+            console.error('데이터 요청 실패 =>', error);
         });
     }, [props.product])
 
@@ -37,8 +37,8 @@ function Recently(props){
         <>
             {
                 item.length ==0?
-                <div>최근본 상품 없습니다.</div>:
-                <div className="detail">
+                <div style={{marginTop:'100px'}}>최근본 상품 없습니다.</div>:
+                <div className="detail" style={{marginTop:'5%'}}>
                 {item.map(function (a, i) {
                     return (
                         <div className="container" key={i}>
